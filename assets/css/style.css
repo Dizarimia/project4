@@ -2,3 +2,18 @@
     margin: auto;
   width: 50%;
 }
+
+footer {
+  position: fixed;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  bottom: 5px;
+  border: 2px black;
+  padding-left: 35%;
+}
+
+#menu {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4rem;
+}
