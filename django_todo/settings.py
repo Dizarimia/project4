@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 CSRF_TRUSTED_ORIGINS = [
     'https://*.mydomain.com',
     'https://*.127.0.0.1',
-    'https://8000-dizarimia-project4-kq4gbbyi2j1.ws-eu75.gitpod.io'
+    'https://*.gitpod.io',
 ]
 
 
