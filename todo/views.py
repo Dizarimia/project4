@@ -17,20 +17,9 @@ def add_item(request):
         if form.is_valid():
             form.save()
             return redirect('get_todo_list')
-        form = ItemForm()
-        context = {
-            'form': form
+    form = ItemForm()
+    context = {
+        'form': form
     }
-    return render(request, 'todo/add_item.html', context)
 
-# def add_item(request):
-#     if request.method == 'POST':
-#         …
-#         return redirect('get_movie_list')
-#     form = ItemForm()
-#     context = {
-#         'form': form
-#     }
-#     return render(request, 'todo/add_item.html', context)        # name = request.POST.get('item_name')
-# done = 'done' in request.POST
-# Item.objects.create(name=name, done=done)
+    return render(request, 'todo/add_item.html', context)
