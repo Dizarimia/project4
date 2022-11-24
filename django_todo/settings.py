@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     os.environ.get('django-project-ls-4.herokuapp.com'),
-    ALLOWED_HOSTS = ['django-project-ls-4.herokuapp.com']
+    'django-project-ls-4.herokuapp.com',
     ]
 
 CSRF_TRUSTED_ORIGINS = [
