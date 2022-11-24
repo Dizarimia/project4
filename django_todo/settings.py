@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    'default': dj_database_url.parse(os.environ.get('postgres://owoqlbpkmqkobo:32b79ff4aeef96ff2dcc4ca08b92daee86a55f994a4e089cc769cb9ea71894db@ec2-34-248-169-69.eu-west-1.compute.amazonaws.com:5432/d87f3qjaj1bqla'))
 }
 
 # Password validation
