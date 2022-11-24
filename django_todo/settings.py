@@ -31,7 +31,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-gqy^p@!^8zo_1999%+&s9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-project-ls-4.herokuapp.com']
+ALLOWED_HOSTS = [
+    os.environ.get('django-project-ls-4.herokuapp.com'),
+    ALLOWED_HOSTS = ['django-project-ls-4.herokuapp.com']
+    ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://*.mydomain.com',
