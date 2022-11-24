@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-gqy^p@!^8zo_1999%+&s9-@*tm97noxsh)@=zy!ni)6ju52)#=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [projekt4igen.herokuapp.com]
+ALLOWED_HOSTS = [django-project-ls-4.herokuapp.com]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://*.mydomain.com',
@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url(os.environ.setdefault("DATABASE_URL", "postgres://ffqqjwuo:8l2aMAxyrGwBnB9bPZybxyKv_aU1gjyk@mouse.db.elephantsql.com/ffqqjwuo"))
+    'default': dj_database_url(os.environ.setdefault("DATABASE_URL", "postgres://owoqlbpkmqkobo:32b79ff4aeef96ff2dcc4ca08b92daee86a55f994a4e089cc769cb9ea71894db@ec2-34-248-169-69.eu-west-1.compute.amazonaws.com:5432/d87f3qjaj1bqla"))
 }
 
 # Password validation
